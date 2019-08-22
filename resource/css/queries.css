@@ -1,0 +1,103 @@
+
+
+/* From big tablet to 1200px (width 1140px for row)  */ 
+@media only screen and (max-width: 1200px) {
+    
+    .row { padding:0 2%; }        
+}
+
+/* For ipad in portrait mode  */ 
+
+@media only screen and (max-width: 1023px){
+    
+    body { font-size: 18px; }
+    section { padding: 60px 0px; }
+    
+    .social-links{
+        top: 25px;
+    }
+    .others {
+        display: none;
+    }
+}
+
+/* For the screen size which are smaller than ipad and small tablets  */
+@media only screen and (max-width: 768px) {
+    
+    body { font-size: 16px;}
+    section {padding: 30px 0px;}
+    .box:first-child {
+       padding-left: 17px; 
+    }
+    
+    .row {padding: 0 5%;}
+    .col {width: 90%;}
+
+    .main-nav {
+    top: 15%;
+    left: 15%;
+    right: 15%;
+    }
+    
+    .main-nav {
+        font-size: 115%;
+    }
+    h1{
+        font-size: 260%;
+        top: 50%;
+        left: 100px;
+        margin:0;
+    }
+    
+    .others {
+        display: none;
+    }
+    
+}
+
+
+/* For small phone from 0 to 480px such as small iphones and small mobile phones 4.5inch */
+
+@media only screen and (max-width: 480px) {
+    section { padding: 25px 0; }
+    
+    .logo {
+        left: 40px;
+    }
+    
+    .main-nav {
+        top: 17%;
+        left: 0px;
+        right: 0px;
+        font-size: 15px;
+        padding: 10px 0px;
+        
+    }
+
+    h1{
+        font-size: 260%;
+        top: 50%;
+        left: 40px;
+        margin:0;
+    }
+    
+    
+    .box:first-child {
+       padding-left: 0px; 
+    }
+    
+    .footer{
+        height: 50%;
+    }
+    .social-links {
+        top: 75px;
+        right: 130px;
+        
+    }
+    
+    .logo-footer{
+        top: 5%;
+        left: 100px;
+    }
+    
+}
